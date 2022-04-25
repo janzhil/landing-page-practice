@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    border: 2px solid cornflowerblue;
+    border: 2px solid cornflowerblue; 
 }
 
 body{
@@ -20,10 +20,8 @@ body{
     
 }
 
-.one, .two, .three, .four, .five, .six{
-    display: flex;
-    
-    
+.one, .two, .three, .four, .five, .six, .box-section{
+    display: flex;  
 }
 
 .logo, .nav-links{
@@ -52,11 +50,9 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-.two{
-    
     
 }
+
 .two-right{
     display: flex;
     flex: 1;
@@ -64,7 +60,10 @@ body{
 }
 .image{
     width: 500px;
-    margin:100px;
+    margin: 100px;
+}
+.three{
+    flex-direction: column;
 }
 
 
