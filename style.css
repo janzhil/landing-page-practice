@@ -1,14 +1,14 @@
 *{
     box-sizing: border-box;
-    border: 2px solid cornflowerblue; 
+     border: 2px solid cornflowerblue; 
 }
 
 body{
     margin:0;
     padding: 0;
     height: 100vh;
-    margin-left: 200px;
-    margin-right: 200px;
+    font-family:  Roboto;
+   
     
 }
 
@@ -17,11 +17,12 @@ body{
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    
 }
 
-.one, .two, .three, .four, .five, .six, .box-section{
+.one, .two, .three, .four, .five, .six{
     display: flex;  
+    padding:0px 200px;
+    
 }
 
 .logo, .nav-links{
@@ -31,6 +32,16 @@ body{
 .one{
     align-items: center;
     justify-content: space-between;
+    background-color: #1f2937;
+    color: #f9faf8;
+    
+}
+.two{
+    background-color: #1f2937;
+    height:500px;
+    align-items: center;
+    
+    
 }
 
 .nav-links{
@@ -41,7 +52,7 @@ body{
 .six{
     justify-content: center;
     align-items: center;
-    
+    background-color: #1f2937;
 }
 .article{
     flex: 1;
@@ -52,19 +63,96 @@ body{
     justify-content: center;
     
 }
-
 .two-right{
-    display: flex;
-    flex: 1;
-    justify-content: center;
+    height: 500px;
 }
+
 .image{
     width: 500px;
+    height: auto;
     margin: 100px;
+    
 }
 .three{
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:500px;
 }
-
-
+.four{
+    height:500px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+}
+.quote{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    width: 800px;
+}
+.heroText{
+    color:#F9FAF8;
+    font-size: 48px;
+    padding: 0;
+    margin: 0%;
+    
+}
+.heroSecondary{
+   color: #e5e7eb;
+   font-size: 18px;
+}
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+.box-section{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+    
+}
+.box{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f6 ;
+    border-radius: 10px;
+    
+    
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    text-align: center;
+    width: 160px;
+    height: 250px;
+    
+}
+.sign-up1{
+    width: 100px;
+    height:30px;
+    border-radius: 9px;
+    background-color: #3882f6;
+}
+.sign-up2{
+    width: 100px;
+    height:30px;
+    border-radius: 9px;
+    background-color: #3882f6;
+    border: 2px solid white;
+}
+.five{
+    background-color: #3882f6;
+    
+}
+.signature{
+    width: 100%;
+}
 
