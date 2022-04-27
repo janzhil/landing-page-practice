@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-     border: 2px solid cornflowerblue; 
+    /* border: 2px solid cornflowerblue; */
 }
 
 body{
@@ -78,6 +78,7 @@ body{
     align-items: center;
     justify-content: center;
     height:500px;
+    gap: 30px;
 }
 .four{
     height:500px;
@@ -87,6 +88,8 @@ body{
     background-color: #e5e7eb;
 }
 .quote{
+    display: flex;
+    flex-direction: column;
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
@@ -140,19 +143,55 @@ body{
     height:30px;
     border-radius: 9px;
     background-color: #3882f6;
+    border: none;
+    
 }
-.sign-up2{
+.message{
     width: 100px;
-    height:30px;
+    height:50px;
     border-radius: 9px;
     background-color: #3882f6;
     border: 2px solid white;
 }
 .five{
-    background-color: #3882f6;
+    
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    height: 350px;
     
 }
 .signature{
-    width: 100%;
+    display: flex;
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 700;
+    
+}
+.cta{
+    display: flex;
+    flex-direction: column;
+}
+.contact-me{
+    margin: 0;
+    padding: 0;
+
+}
+.contact-me-sec{
+    margin: 0;
+    padding: 0;
+}
+.cta-container{
+    display: flex;
+    background-color: #3882f6;
+    width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    border-radius: 10px;
+    
+}
+button{
+    color: #e5e7eb;
 }
 
